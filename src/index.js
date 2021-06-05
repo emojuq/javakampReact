@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//index js ilk başlatılacak olan js dosyamızdır. 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <App />, //uygulamamız app hiyerarşisiyle çalışıyor 
+ 
   document.getElementById('root')
 );
 
