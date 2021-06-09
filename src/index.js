@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
 
 //index js ilk başlatılacak olan js dosyamızdır. 
 
 ReactDOM.render(
   
-    <App />, //uygulamamız app hiyerarşisiyle çalışıyor 
+   <BrowserRouter><App /></BrowserRouter>, //uygulamamız app hiyerarşisiyle çalışıyor 
  
   document.getElementById('root')
 );
